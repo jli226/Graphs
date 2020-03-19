@@ -102,6 +102,8 @@ class SocialGraph:
 if __name__ == '__main__':
     sg = SocialGraph()
     sg.populate_graph(10, 2)
+    # sg.populate_graph(1000, 5)
+
     # print(sg.friendships)
     print(f"Friendships {sg.friendships}")
 
