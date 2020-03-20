@@ -110,3 +110,4 @@ if __name__ == '__main__':
     connections = sg.get_all_social_paths(1)
     # print(connections)
     print(f"Connections {connections}")
+    # print(len(connections) / 1000)
